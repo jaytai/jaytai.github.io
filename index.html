@@ -6,18 +6,32 @@
 <!-- _layouts/default.html -->
 <link href='/assets/css/main.css' rel='stylesheet'>
 <style type="text/css">
-	body{ text-align:center} 
-	#divcss5{margin:0 auto} 
-	li{
-    border:1px dotted #ccc;
-    width:200px;
-    height:30px;
-    text-align :left;
-    padding-bottom:auto;}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.box li {
+  float: left;
+  width: 150px;
+  background: #fafafa;
+  height: 50px;
+  margin-right: 10px;
+  text-align:center;
+}
+
+.box p {
+  display: inline-block;
+  text-align: left;
+}
 </style>
 </head>
 <body>
-<div id="divcss5">
+<div class="box">
 	<ul>
 		<li><iframe src="//player.bilibili.com/player.html?aid=497802502&bvid=BV1LK411j7Gk&cid=179314474&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></li>
 	</ul>
@@ -25,7 +39,7 @@
 
 <div id="divcss5">
 	<ul>
-		<li>钟爱街头纪实，想讲引人入胜的故事。</li>
+		<li><p>钟爱街头纪实，想讲引人入胜的故事。</p></li>
 		<li>/</li>
 		<li>/</li>
 		<li>一床一桌一绿植</li>
